@@ -1,0 +1,27 @@
+{
+  "name": "dsh-academic-preset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "学术模式：面向大学课程学习与作业（论文、文献综述、实验报告、计算/编程、数据处理、PPT、复习）的 DSH Agent 预设",
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "agent-preset",
+    "academic",
+    "study",
+    "学术模式"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
